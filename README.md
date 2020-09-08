@@ -13,12 +13,16 @@ Fullstack with Node.js Express:
 Fullstack with Spring Boot:
 > [React + Spring Boot + MySQL](https://bezkoder.com/react-spring-boot-crud/)
 
+> [React + Spring Boot + PostgreSQL](https://bezkoder.com/spring-boot-react-postgresql/)
+
 > [React + Spring Boot + MongoDB](https://bezkoder.com/react-spring-boot-mongodb/)
 
 Fullstack with Django:
 
 > [React + Django Rest Framework](https://bezkoder.com/django-react-axios-rest-framework/)
 
+Serverless with Firebase:
+> [React Firebase Hooks: CRUD App with Realtime Database example](https://bezkoder.com/react-firebase-hooks-crud/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
