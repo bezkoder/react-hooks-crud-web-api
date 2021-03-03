@@ -1,7 +1,22 @@
-# React.js CRUD App with Vue Router & Axios
+# React.js Hooks CRUD App with Axios & Web API example
+Build a React Hooks CRUD Application to consume Web API with Axios, display and modify data with Router & Bootstrap.
+- Each Tutorial has id, title, description, published status.
+- We can create, retrieve, update, delete Tutorials.
+- There is a Search bar for finding Tutorials by title.
 
-For more detail, please visit:
+![react-hooks-crud-axios-api-example](react-hooks-crud-axios-api-example.png)
+
+For instruction, please visit:
 > [React Hooks CRUD example with Axios and Web API](https://bezkoder.com/react-hooks-crud-axios-api/)
+
+More Practice:
+> [React Pagination using Hooks example](https://bezkoder.com/react-pagination-hooks/)
+
+> [React Hooks File Upload example](https://bezkoder.com/react-hooks-file-upload/)
+
+> [React Hooks: JWT Authentication & Authorization example](https://bezkoder.com/react-hooks-jwt-auth/)
+
+> [React + Redux + Hooks: JWT Authentication & Authorization example](https://bezkoder.com/react-hooks-redux-login-registration-example/)
 
 Fullstack with Node.js Express:
 > [React + Node.js Express + MySQL](https://bezkoder.com/react-node-express-mysql/)
@@ -18,11 +33,12 @@ Fullstack with Spring Boot:
 > [React + Spring Boot + MongoDB](https://bezkoder.com/react-spring-boot-mongodb/)
 
 Fullstack with Django:
-
-> [React + Django Rest Framework](https://bezkoder.com/django-react-axios-rest-framework/)
+> [React.js Hooks + Django Rest Framework](https://bezkoder.com/django-react-hooks/)
 
 Serverless with Firebase:
 > [React Firebase Hooks: CRUD App with Realtime Database example](https://bezkoder.com/react-firebase-hooks-crud/)
+
+> [React Hooks Firestore example: CRUD App](https://bezkoder.com/react-hooks-firestore/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
