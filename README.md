@@ -10,6 +10,10 @@ For instruction, please visit:
 > [React Hooks CRUD example with Axios and Web API](https://bezkoder.com/react-hooks-crud-axios-api/)
 
 More Practice:
+> [React Hooks (Typescript) CRUD example with Axios and Web API](https://bezkoder.com/react-typescript-api-call/)
+
+> [React Table example: CRUD App with react-table v7](https://bezkoder.com/react-table-example-hooks-crud/)
+
 > [React Pagination using Hooks example](https://bezkoder.com/react-pagination-hooks/)
 
 > [React Hooks File Upload example](https://bezkoder.com/react-hooks-file-upload/)
