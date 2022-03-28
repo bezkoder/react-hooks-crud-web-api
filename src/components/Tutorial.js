@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { useParams, useNavigate } from 'react-router-dom';
 import TutorialDataService from "../services/TutorialService";
 
 const Tutorial = props => {
+  const { id }= useParams();
+  let navigate = useNavigate();
+
   const initialTutorialState = {
     id: null,
     title: "",
@@ -23,8 +27,9 @@ const Tutorial = props => {
   };
 
   useEffect(() => {
-    getTutorial(props.match.params.id);
-  }, [props.match.params.id]);
+    if (id)
+      getTutorial(id);
+  }, [id]);
 
   const handleInputChange = event => {
     const { name, value } = event.target;
@@ -64,7 +69,7 @@ const Tutorial = props => {
     TutorialDataService.remove(currentTutorial.id)
       .then(response => {
         console.log(response.data);
-        props.history.push("/tutorials");
+        navigate("/tutorials");
       })
       .catch(e => {
         console.log(e);

@@ -28,7 +28,7 @@ const findByTitle = title => {
   return http.get(`/tutorials?title=${title}`);
 };
 
-export default {
+const TutorialService = {
   getAll,
   get,
   create,
@@ -37,3 +37,5 @@ export default {
   removeAll,
   findByTitle
 };
+
+export default TutorialService;
