@@ -116,14 +116,14 @@ const TutorialsList = () => {
               <label>
                 <strong>Title:</strong>
               </label>{" "}
-              {currentTutorial.title}
+              {currentTutorial.full_name}
             </div>
-            <div>
+            {/* <div>
               <label>
                 <strong>Description:</strong>
               </label>{" "}
               {currentTutorial.description}
-            </div>
+            </div> */}
             <div>
               <label>
                 <strong>Status:</strong>
